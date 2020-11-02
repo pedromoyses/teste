@@ -1,18 +1,21 @@
-import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  var texto = "qualquercoisaai"
   return (
     <div className={styles.container}>
-      <Head>
+      <head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      </head>
+      <Image src="/um.png"
+        unsized={true}
+        alt="teste"/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC7ngz6vzPqtgdt9_YYO2P8A?view_as=subscriber">Meu canal!</a>
         </h1>
 
         <p className={styles.description}>
@@ -20,7 +23,7 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
-        <Link href="vacinas/vacina1">VAMOS TOMAR VACINA</Link>
+        <Link href="vacinas/vacina1">{texto}</Link>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -28,9 +31,9 @@ export default function Home() {
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://twitter.com/AbridorDeMares" className={styles.card}>
+            <h3>Twitter </h3>
+            <p>Vem ver eu falando merda</p>
           </a>
 
           <a

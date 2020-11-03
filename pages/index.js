@@ -3,54 +3,56 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  var texto = "qualquercoisaai"
+  var texto = "Seu novo serviço de Videochamadas"
   return (
     <div className={styles.container}>
       <head>
-        <title>Create Next App</title>
+        <title>Bem Vindo ao Jam Meet</title>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <Image src="/um.png"
+      <Image src="/Logomenor.png"
         unsized={true}
         alt="teste"/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC7ngz6vzPqtgdt9_YYO2P8A?view_as=subscriber">Meu canal!</a>
+          Bem vindo ao Jam - Meet 
         </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        
+        <h2><a target="_blank" rel="noopener noreferrer" 
+          href="https://www.youtube.com/channel/UC7ngz6vzPqtgdt9_YYO2P8A?view_as=subscriber">Como funciona?</a></h2>
+      
 
         <Link href="vacinas/vacina1">{texto}</Link>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>Criar nova conta &rarr;<a target="_blank" rel="noopener noreferrer" 
+          href="https://www.youtube.com/channel/UC7ngz6vzPqtgdt9_YYO2P8A?view_as=subscriber">Como funciona?</a>
+
+            </h3>
+            <p>Crie sua nova conta e comece sua própria Jam.</p>
           </a>
 
-          <a href="https://twitter.com/AbridorDeMares" className={styles.card}>
-            <h3>Twitter </h3>
-            <p>Vem ver eu falando merda</p>
+          <a href="Chamada/chamada" className={styles.card}>
+            <h3>Nova Chamada </h3>
+            <p>Crie agora um link para seu ensaio.</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Depoimentos de Usuários &rarr;</h3>
+            <p>Clique aqui para ouvir o depoimento de nossos usuários.</p>
           </a>
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Entrar em uma Jam &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Clique aqui.
             </p>
           </a>
         </div>

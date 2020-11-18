@@ -4,7 +4,7 @@ function Chamada() {
   return (
     <>
       <Image
-        src="/Jam1.png"
+        src="/BERLO2.jpg"
         alt="Imagem"
         unsized
       />

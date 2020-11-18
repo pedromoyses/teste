@@ -3,58 +3,67 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  var texto = "Seu novo serviço de Videochamadas"
+  var texto = ""
   return (
     <div className={styles.container}>
       <head>
-        <title>Bem Vindo ao Jam Meet</title>
+        <title>Bem Vindo a História de Berlo</title>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <Image src="/Logomenor.png"
+      <Image src="/CABEÇA.jpg"
         unsized={true}
         alt="teste"/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem vindo ao Jam - Meet 
+          Bem vindo a história de Berlo, por favor coloque sua máscara - não pode ser a do teatro
         </h1>
         
         <h2><a target="_blank" rel="noopener noreferrer" 
-          href="https://www.youtube.com/channel/UC7ngz6vzPqtgdt9_YYO2P8A?view_as=subscriber">Como funciona?</a></h2>
+          href="https://www.youtube.com/channel/UC7ngz6vzPqtgdt9_YYO2P8A?view_as=subscriber">Quem Matou Dionísio?</a></h2>
       
 
         <Link href="vacinas/vacina1">{texto}</Link>
+        
+
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Criar nova conta &rarr;<a target="_blank" rel="noopener noreferrer" 
-          href="https://www.youtube.com/channel/UC7ngz6vzPqtgdt9_YYO2P8A?view_as=subscriber">Como funciona?</a>
+            <h3>Depoimento de sua irmã &rarr;<a target="_blank" rel="noopener noreferrer" 
+          href="https://www.youtube.com/channel/UC7ngz6vzPqtgdt9_YYO2P8A?view_as=subscriber">Sobre sua infância</a>
 
             </h3>
-            <p>Crie sua nova conta e comece sua própria Jam.</p>
+            <p>Assista o depoimento da irmã de Berlo</p>
           </a>
 
           <a href="Chamada/chamada" className={styles.card}>
-            <h3>Nova Chamada </h3>
-            <p>Crie agora um link para seu ensaio.</p>
+            <h3>Como é Berlo? </h3>
+            <p>Veja seu rosto.</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Depoimentos de Usuários &rarr;</h3>
-            <p>Clique aqui para ouvir o depoimento de nossos usuários.</p>
+            <h3>Depoimentos de George e Mary &rarr;</h3>
+            <p>Clique aqui para ver os depoimentos de George e Mary que abrigaram Berlo em uma de suas viagens.</p>
           </a>
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Entrar em uma Jam &rarr;</h3>
+            <h3> Texto sobre seu documentário "Quem Matou Dionísio?" &rarr;</h3>
             <p>
               Clique aqui.
             </p>
           </a>
+
+          <a href="vacinas/vacina1.js" className={styles.card}>
+            <h3>Berlo na TV </h3>
+            <p>Menções a Berlo na TV Aberta.</p>
+          </a>
+
+          
         </div>
       </main>
 

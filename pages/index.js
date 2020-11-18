@@ -41,7 +41,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://youtu.be/QHPsJeo3_hk"
             className={styles.card}
           >
             <h3>Depoimentos de George e Mary &rarr;</h3>
@@ -58,11 +58,13 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="vacinas/vacina1.js" className={styles.card}>
-            <h3>Berlo na TV </h3>
-            <p>Menções a Berlo na TV Aberta.</p>
+          <a
+            href="https://youtu.be/wW90etFT6_U"
+            className={styles.card}
+          >
+            <h3>Caso Berlo na TV &rarr;</h3>
+            <p>Assista duas menções a história de Berlo na TV Aberta.</p>
           </a>
-
           
         </div>
       </main>

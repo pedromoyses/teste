@@ -8,7 +8,7 @@ function Chamada() {
         alt="Imagem"
         unsized
       />
-      <p>Bem vindo!</p>
+      <p>Esse é Berlo, no auge de sua juventude.</p>
     </>
   )
 }

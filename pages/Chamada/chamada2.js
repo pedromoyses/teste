@@ -8,9 +8,9 @@ function Chamada() {
         alt="Imagem"
         unsized
       />
-      <p>No Jornal Hora de Desembargador de Fora, Minas Específicas</p>
+      <p>Texto publicado no Jornal A Hora de Desembargador de Dentro, Minas Específicas</p>
     </>
   )
 }
 
-export default vacina
+export default Chamada
